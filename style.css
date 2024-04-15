@@ -1,0 +1,597 @@
+section {
+    padding: 30px;
+}
+
+html body {
+
+    background-color: #000A13;
+}
+
+header {
+    background-image: url("../images/bck.png");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: none;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.navbar.scrolled {
+    background-color: #004a75;
+}
+
+#nav a {
+    position: relative;
+    left: 50px;
+}
+
+#nav ul {
+    position: relative;
+    left: 747px;
+}
+
+.first h1 {
+    position: relative;
+    top: 70px;
+    left: 10px;
+    color: white;
+    font-family: 'STIX Two Text';
+    font-size: 60px;
+    width: 40%;
+}
+
+.first form {
+    position: relative;
+    bottom: -150px;
+    width: 50%;
+    height: 500px;
+}
+
+#intro h2,
+p,
+#Res h3,
+#Res h2,
+#ft h5 {
+    color: white;
+    font-family: 'STIX Two Text';
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.cont img {
+    padding: 30px;
+}
+
+.cont h2 {
+    color: #109eff !important;
+    font-size: 50px;
+}
+
+#iwd p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+#iwd {
+    padding: 50px;
+}
+
+#iwd h2 {
+    color: #109eff !important;
+    font-size: 50px;
+
+}
+
+.sspage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sspage article {
+    width: 50%;
+    padding: 50px;
+
+}
+
+.FE {
+    background-image: url(../images/Group\ 10.png);
+    background-size: 100% 100%;
+}
+
+.BE {
+    background-image: url(../images/Group\ 9.png);
+    background-size: 100% 100%;
+}
+
+.DB {
+    background-image: url(../images/Group\ 12.png);
+    background-size: 100% 100%;
+}
+
+.WH {
+    background-image: url(../images/Group\ 11.png);
+    background-size: 100% 100%;
+}
+
+.FE p,
+.BE p,
+.DB p,
+.WH p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.FE a,
+.BE a,
+.DB a,
+.WH a {
+    font-family: 'STIX Two Text';
+    font-size: 25px;
+
+}
+
+.FE h3,
+.BE h3,
+.DB h3,
+.WH h3 {
+    color: #109eff !important;
+    padding-bottom: 25px;
+}
+
+.FE,
+.BE,
+.DB,
+.WH {
+    padding: 0px !important;
+    width: 35% !important;
+    padding-bottom: 100px !important;
+}
+
+.FE,
+.DB {
+    position: relative !important;
+    left: 50px;
+}
+
+.BE,
+.WH {
+    position: relative !important;
+    right: 50px;
+}
+
+
+
+#footer {
+    margin-top: 200px;
+}
+
+/*-----------------------------------------Les modification du 2eme page--------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#secondP body {
+    background-image: url("../images/bck2.png") !important;
+    background-size: 100% 100%;
+}
+
+#header2 {
+    background-image: none;
+}
+
+#navSecond {
+    position: relative !important;
+    left: 247px !important;
+}
+
+#nav form {
+    position: relative;
+    left: 200px;
+}
+
+.introduc {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.introduc div p {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.introduc div h1 {
+    color: #109eff;
+    font-family: 'STIX Two Text';
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.introduc img {
+    height: 300px;
+    width: auto;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+#header2 form {
+    position: relative;
+    right: 50px;
+    width: 500px;
+}
+
+.partieHTML {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partieHTML img {
+    height: auto;
+    width: 300px;
+
+}
+
+.partieHTML div {
+    padding-right: 80px;
+}
+
+.introduc p,
+.partieHTML p {
+    font-family: 'STIX Two Text';
+    color: white;
+}
+
+.tpH {
+    color: #f16529;
+    font-family: 'STIX Two Text';
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.partieHTML p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.partieHTML a {
+    font-family: 'STIX Two Text';
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.tpC {
+    color: #2965f1;
+    font-family: 'STIX Two Text';
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#suite {
+    font-size: 25px;
+    text-align: justify;
+}
+
+section article a {
+    font-family: 'STIX Two Text';
+    text-decoration: none;
+    font-size: 25px;
+}
+
+table {
+    width: 100%;
+}
+
+table caption {
+    caption-side: top;
+    font-family: 'STIX Two Text';
+    color: white;
+    font-size: 25px;
+}
+
+table th,
+table tr {
+    text-align: center;
+}
+
+table th {
+    font-family: 'STIX Two Text';
+    color: white;
+}
+
+#logoJS {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/*----------------------------Coming Soon Page-------------------------*/
+/*---------------------------------------------------------------------*/
+
+#Cs {
+    width: 100vw;
+    height: 100vh;
+}
+
+#logoCS {
+    width: 400px;
+    height: auto;
+}
+
+#Cs h1,
+#Cs h2,
+#Cs p {
+    font-family: 'STIX Two Text';
+    color: white;
+    text-align: center;
+}
+
+#Cs h1 {
+    padding-bottom: 20px;
+}
+
+#logoCS {
+    position: relative;
+    left: 37%;
+    padding: 50px;
+}
+
+#Cs ul {
+    position: relative;
+    left: 46%;
+}
+
+/*----------------------------Back-End-------------------------------*/
+/*---------------------------------------------------------------------*/
+#bckdiv {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5px;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    grid-template-areas:
+        "video1 video2"
+        "video3 video4";
+    padding-top: 50px;
+}
+
+#v1 {
+    grid-area: video1;
+}
+
+#v2 {
+    grid-area: video2;
+}
+
+#v3 {
+    grid-area: video3;
+}
+
+#v4 {
+    grid-area: video4;
+}
+
+
+/*----------------------------About Page-------------------------------*/
+/*---------------------------------------------------------------------*/
+#sectionPageAbout {
+    display: flex;
+
+}
+
+#sectionPageAbout div {
+    padding: 0%;
+    margin: 0%;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+#sectionPageAbout div h1 {
+    color: white;
+    font-size: 70px;
+    font-family: 'STIX Two Text';
+}
+
+#sectionPageAbout div p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+/*----------------------------Media Query------------------------------*/
+/*---------------------------------------------------------------------*/
+
+/*large Screen*/
+@media screen and (max-width:1440px) {
+    #nav ul {
+        position: relative;
+        left: 45%;
+    }
+}
+
+/*Screen*/
+@media screen and (max-width:1024px) {
+    #nav ul {
+        position: relative;
+        left: 250px;
+    }
+
+    #nav form {
+        display: none;
+    }
+
+    #navSecond {
+        left: 250px !important;
+    }
+}
+
+/*Tablette*/
+@media screen and (max-width:787px) {
+    header {
+        background-image: url("../images/bckTablette.png");
+        background-size: 100% 100%;
+        height: 100%;
+        width: 100%;
+    }
+
+    #nav form {
+        display: none;
+    }
+
+    #navbarToggler li {
+        position: relative;
+        right: 25%;
+        padding-top: 20px;
+    }
+
+    #navSecond li {
+        position: relative !important;
+        right: 200px !important;
+    }
+
+    #nav button {
+        position: relative;
+        right: 20px;
+    }
+
+    .first H1 {
+        font-size: 45px;
+    }
+
+    .cont img {
+        display: none;
+    }
+
+    .cont div {
+        background-image: url("../images/Group\ 23.png");
+        background-size: 100% 100%;
+        height: 100%;
+        width: 100%;
+    }
+
+    #iwd {
+        padding: 0%;
+    }
+
+    .sspage article {
+        width: 100% !important;
+        padding: 25px;
+    }
+
+    .BE,
+    .WH {
+        position: relative !important;
+        right: 0px !important;
+    }
+
+    .FE,
+    .DB {
+        position: relative !important;
+        left: 0px !important;
+    }
+
+    /*Front-end Page*/
+    .introduc {
+        flex-direction: column;
+    }
+
+    .introduc img {
+        height: auto;
+        width: auto;
+        position: relative;
+        left: -10px;
+    }
+
+    .partieHTML img {
+        display: none;
+    }
+}
+
+/* large Phone*/
+@media screen and (max-width:426px) {
+    header {
+        background-image: url("../images/bckPhone.png");
+        background-size: 100% 100%;
+        height: 100%;
+        width: 100%;
+    }
+
+    .first H1 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .first form {
+        width: 100%;
+    }
+
+    #intro h2,
+    #iwd H2 {
+        font-size: 30px;
+    }
+
+    .FE H3,
+    .BE H3,
+    .DB H3,
+    .WH H3 {
+        font-size: 25px;
+    }
+
+    #intro p,
+    #iwd p,
+    .FE p,
+    .BE p,
+    .DB p,
+    .WH p {
+        font-size: 20px;
+    }
+}
+
+/*Medium Phone*/
+@media screen and (max-width:375x) {}
+
+/*Small Phone*/
+@media screen and (max-width:320px) {
+    .first H1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .first form {
+        width: 100%;
+    }
+
+    #intro h2,
+    #iwd H2 {
+        font-size: 25px;
+    }
+
+    .FE H3,
+    .BE H3,
+    .DB H3,
+    .WH H3 {
+        font-size: 20px;
+    }
+
+    #intro p,
+    #iwd p,
+    .FE p,
+    .BE p,
+    .DB p,
+    .WH p {
+        font-size: 15px;
+    }
+}
